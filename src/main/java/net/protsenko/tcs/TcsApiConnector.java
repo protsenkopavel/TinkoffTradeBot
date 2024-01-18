@@ -1,6 +1,7 @@
-package net.protsenko.core;
+package net.protsenko.tcs;
 
 import lombok.extern.slf4j.Slf4j;
+import net.protsenko.core.Parameters;
 import org.springframework.stereotype.Component;
 import ru.tinkoff.invest.openapi.OpenApi;
 import ru.tinkoff.invest.openapi.model.rest.SandboxRegisterRequest;

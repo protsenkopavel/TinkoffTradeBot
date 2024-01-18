@@ -1,15 +1,16 @@
 package net.protsenko;
 
-import net.protsenko.core.TcsApiConnector;
-import net.protsenko.core.TcsContextProvider;
 import net.protsenko.core.Parameters;
 import net.protsenko.reports.*;
+import net.protsenko.tcs.TcsApiConnector;
+import net.protsenko.tcs.TcsContextProvider;
 import ru.tinkoff.invest.openapi.model.rest.MarketInstrument;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class GetReports {
+
     public static void main(String[] args) throws Exception {
         Parameters parameters = new Parameters(args[0], Boolean.parseBoolean(args[1]));
         TcsApiConnector apiConnector = new TcsApiConnector(parameters);

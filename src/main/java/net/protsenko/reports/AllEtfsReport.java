@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class AllEtfsReport extends CommonReport {
+
     public AllEtfsReport(List<MarketInstrument> instruments) throws IOException {
         super();
         this.setFileName("etfs.csv")

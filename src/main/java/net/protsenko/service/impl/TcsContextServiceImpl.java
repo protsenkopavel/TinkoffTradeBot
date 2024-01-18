@@ -2,12 +2,12 @@ package net.protsenko.service.impl;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import net.protsenko.core.TcsContextProvider;
 import net.protsenko.core.tools.DateTimeTools;
 import net.protsenko.core.tools.TimeInterval;
 import net.protsenko.models.entities.Instrument;
 import net.protsenko.models.entities.Timeframe;
 import net.protsenko.service.TcsContextService;
+import net.protsenko.tcs.TcsContextProvider;
 import net.protsenko.tcs.TcsTools;
 import org.springframework.stereotype.Service;
 import ru.tinkoff.invest.openapi.model.rest.Candle;

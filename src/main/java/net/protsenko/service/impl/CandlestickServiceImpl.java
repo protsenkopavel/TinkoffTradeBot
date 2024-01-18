@@ -1,6 +1,7 @@
 package net.protsenko.service.impl;
 
 import lombok.AllArgsConstructor;
+import net.protsenko.core.GlobalContext;
 import net.protsenko.core.tools.DateTimeTools;
 import net.protsenko.models.entities.Candlestick;
 import net.protsenko.models.entities.Instrument;

@@ -1,4 +1,4 @@
-package net.protsenko.core;
+package net.protsenko.tcs;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

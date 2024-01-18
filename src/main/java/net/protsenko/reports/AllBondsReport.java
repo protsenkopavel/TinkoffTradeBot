@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class AllBondsReport extends CommonReport {
+
     public AllBondsReport(List<MarketInstrument> instruments) throws IOException {
         super();
         this.setFileName("bonds.csv")
@@ -14,4 +15,5 @@ public class AllBondsReport extends CommonReport {
                 .setFields(new String[]{"ticker", "isin", "figi", "name", "currency", "lot", "minPriceIncrement"})
                 .setHeaders(new String[]{"тикер", "isin", "figi", "наименование", "валюта", "лот", "шаг цены"});
     }
+
 }
