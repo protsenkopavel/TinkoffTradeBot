@@ -1,4 +1,4 @@
-package net.protsenko;
+package net.protsenko.core;
 
 import lombok.Data;
 

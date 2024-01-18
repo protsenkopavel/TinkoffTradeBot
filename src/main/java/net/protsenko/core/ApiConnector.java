@@ -1,4 +1,4 @@
-package net.protsenko;
+package net.protsenko.core;
 
 import lombok.extern.slf4j.Slf4j;
 import ru.tinkoff.invest.openapi.OpenApi;

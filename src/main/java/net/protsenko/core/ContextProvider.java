@@ -1,6 +1,7 @@
-package net.protsenko;
+package net.protsenko.core;
 
 import lombok.extern.slf4j.Slf4j;
+import net.protsenko.core.ApiConnector;
 import ru.tinkoff.invest.openapi.OpenApi;
 import ru.tinkoff.invest.openapi.model.rest.MarketInstrumentList;
 
