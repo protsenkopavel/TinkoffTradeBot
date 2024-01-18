@@ -1,9 +1,12 @@
 package net.protsenko.tcs;
 
+import net.protsenko.core.tools.DateTimeTools;
+import net.protsenko.core.tools.TimeInterval;
 import net.protsenko.models.entities.Timeframe;
 
 import java.time.ZonedDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.List;
 
 public class TcsTools {
     public static List<TimeInterval> splitPeriod (

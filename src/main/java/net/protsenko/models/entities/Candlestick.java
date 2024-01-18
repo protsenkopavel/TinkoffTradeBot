@@ -3,6 +3,7 @@ package net.protsenko.models.entities;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Setter;
+import net.protsenko.core.tools.DateTimeTools;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
